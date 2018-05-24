@@ -131,5 +131,6 @@ def get_hist_LOB(start,end,contract):
 if __name__ == "__main__":
     start = "2017-12-30"
     end = "2018-01-01"
+    # For detailed contract name format, one should refer to: https://1token.trade/r/docs#/instruction/naming-rules
     contract = "okex/btc.usdt"
     get_hist_LOB(start,end,contract)
